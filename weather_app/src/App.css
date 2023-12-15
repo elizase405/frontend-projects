@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+/*Root*/
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 100%;
+    background-color: #f8ef42;
+    background-image: linear-gradient(315deg, #f8ef42 0%, #0fd64f 74%);
+}
+
+/*Form*/
+.input {
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    margin-right: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    background: #000;
+}
+
+.button {
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: #000;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/*Wave*/
+.svg {
+    position: absolute;
+    transform: rotate(60deg);
+    height: 250vh;
+}
+
+.form {
+    position: absolute;
+}
+
